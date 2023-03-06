@@ -3,11 +3,6 @@ import 'package:to_do_list/pages/to_do_list_page.dart';
 
 void main() {
   runApp(MaterialApp(
-    debugShowCheckedModeBanner: false,
-    theme: ThemeData(
-        useMaterial3: true,
-        colorSchemeSeed: Color.fromARGB(0, 0, 0, 0),
-        brightness: Brightness.dark),
     home: MyApp(),
   ));
 }
@@ -17,6 +12,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ToDoListPage();
+    return MaterialApp(debugShowCheckedModeBanner: false,
+    theme: ThemeData(
+        useMaterial3: true,
+        colorSchemeSeed: Color.fromARGB(0, 0, 0, 0),
+        brightness: Brightness.dark),);
   }
 }
