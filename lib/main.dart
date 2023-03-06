@@ -10,11 +10,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false,
-    theme: ThemeData(
-        useMaterial3: true,
-        colorSchemeSeed: Color.fromARGB(0, 0, 0, 0),
-        brightness: Brightness.dark),);
-    home: ToDoListPage(),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+          useMaterial3: true,
+          colorSchemeSeed: Color.fromARGB(0, 0, 0, 0),
+          brightness: Brightness.dark),
+      home: ToDoListPage(),
+    );
   }
 }
