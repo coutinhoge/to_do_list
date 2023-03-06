@@ -16,6 +16,6 @@
 <div align="center">
     <h3><i>Video da Aplicação funcionando</i></h3>
     
-[Assistir]()
+[Assistir](https://youtu.be/Ok5bpsIKN-4)
     
 </div>
