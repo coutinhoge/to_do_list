@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:to_do_list/pages/to_do_list_page.dart';
 
 void main() {
-  runApp(MaterialApp(
-    home: MyApp(),
-  ));
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -17,5 +15,6 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         colorSchemeSeed: Color.fromARGB(0, 0, 0, 0),
         brightness: Brightness.dark),);
+    home: ToDoListPage(),
   }
 }
