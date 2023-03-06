@@ -1,9 +1,9 @@
 <div align="center">
-    <h2><i></i>To Do List</h2>
+    <h2><i>To Do List</i></h2>
 </div>
 
 <div align="center">
-    <h3><i></i>Dependências</h3>
+    <h3><i>Dependências</i></h3>
     <p>- Nenhuma; além dos pacotes padrões... Cupertino e Material.</P>
 </div>
 
